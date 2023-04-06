@@ -1,0 +1,43 @@
+/* Write your code here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+.company-name {
+  font-weight: 500;
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border: none;
+  margin-left: 200px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  button {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
